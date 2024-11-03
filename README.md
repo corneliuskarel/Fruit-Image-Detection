@@ -14,7 +14,21 @@
 
 ## Baseline Model & Results
 
+#### Baseline Model Architecture
+VGG16 Model <p></p> 
+![base_arc](imgs/baseline_mod.png)
+
+#### Baseline Result
+![base_res](imgs/pre_mod_res.png)
+
 ## Tuned Model & Results
+
+#### Tuned Model Architecture
+These modifications make the model more robust, improving its ability to generalize on unseen images.<p></p> 
+![mod_arc](imgs/modified_mod.png)
+
+#### Tuned Model Results
+![mod_res](imgs/mod_res.png)
 
 ## Conclusion
 <p align="justify">evaluations are improved generally, F1 Score is increased decently with the new modified model, which we added dropouts and batch normalizations, proving that our modified model succeed on improving the prior model's predicting power for the test set. However, by reducing the batch size because there is a limitation in computing power, the external gpu used from kaggle returns exhaustion error.</p>
